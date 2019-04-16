@@ -1,0 +1,2 @@
+# segregujmy
+Flutter ecological app.
