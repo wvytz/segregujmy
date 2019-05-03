@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../product_manager.dart';
-import './products_admin.dart';
+import 'pszok_mapa.dart';
+import './main_page.dart';
 
 class ProductsPage extends StatelessWidget {
   @override
@@ -28,9 +28,9 @@ class ProductsPage extends StatelessWidget {
         ),
       ),
       appBar: AppBar(
-        title: Text('EasyList'),
+        title: Text('Pszok Leszno'),
       ),
-      body: ProductManager(),
+      body: MyApp(),
     );
   }
 }
